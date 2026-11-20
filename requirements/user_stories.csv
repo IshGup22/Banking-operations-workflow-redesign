@@ -1,0 +1,13 @@
+id,priority,story,status,epic
+US-01,High,"As a Finance analyst, I want to review consolidated bank and ledger records so I can identify balances needing attention",Specified (simulation),Reconciliation process redesign
+US-02,High,"As a Operations analyst, I want to auto-clear matching transactions so I can focus on genuine exceptions",Specified (simulation),Reconciliation process redesign
+US-03,High,"As a Operations analyst, I want to flag amount mismatches so I can investigate unreconciled amounts",Specified (simulation),Reconciliation process redesign
+US-04,High,"As a Operations analyst, I want to detect duplicate payment entries so I can prevent duplicate clearance",Specified (simulation),Reconciliation process redesign
+US-05,High,"As a Finance analyst, I want to flag blank payment references so I can request supporting evidence",Specified (simulation),Reconciliation process redesign
+US-06,High,"As a Finance analyst, I want to prioritize records older than seven days so I can reduce aged exceptions",Specified (simulation),Reconciliation process redesign
+US-07,Medium,"As a Operations lead, I want to view exceptions by category so I can allocate review workload",Specified (simulation),Reconciliation process redesign
+US-08,Medium,"As a Finance lead, I want to review productivity assumptions so I can assess the proposed workflow",Specified (simulation),Reconciliation process redesign
+US-09,Medium,"As a Business analyst, I want to trace each control to an acceptance test so I can validate completeness",Specified (simulation),Reconciliation process redesign
+US-10,Medium,"As a Tester, I want to replay known exception scenarios so I can verify routing rules",Specified (simulation),Reconciliation process redesign
+US-11,Medium,"As a Project manager, I want to view a documented decision log so I can track approval and dependencies",Specified (simulation),Reconciliation process redesign
+US-12,Medium,"As a Business stakeholder, I want to review an audit-ready export so I can confirm proposed process readiness",Specified (simulation),Reconciliation process redesign

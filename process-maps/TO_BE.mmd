@@ -1,0 +1,13 @@
+flowchart TD
+ A[Load synthetic batch] --> B[Validate fields]
+ B --> C{Duplicate?}
+ C -- Yes --> Q[Manual Review Queue]
+ C -- No --> D{Reference present?}
+ D -- No --> Q
+ D -- Yes --> E{Amount difference > 0.01?}
+ E -- Yes --> Q
+ E -- No --> F{Age > 7 days?}
+ F -- Yes --> Q
+ F -- No --> M[Auto Clear Candidate]
+ M --> R[Audit Export + Metrics]
+ Q --> R

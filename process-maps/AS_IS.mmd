@@ -1,0 +1,9 @@
+flowchart TD
+ A[Receive batch of records] --> B[Open each item manually]
+ B --> C[Compare bank and ledger]
+ C --> D{Difference or missing detail?}
+ D -- Yes --> E[Investigate and request clarification]
+ D -- No --> F[Manually mark complete]
+ E --> G[Update tracking sheet]
+ F --> G
+ G --> H[Prepare manual summary]

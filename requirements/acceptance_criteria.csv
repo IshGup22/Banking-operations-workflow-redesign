@@ -1,0 +1,26 @@
+ac_id,story_id,criterion,validation_method,status
+AC-01,US-02,"When amounts match and all mandatory fields are present, record is auto-cleared",Automated test,Specified
+AC-02,US-02,Auto-cleared records display a rule result of MATCH,Automated test,Specified
+AC-03,US-03,Mismatch greater than 0.01 is routed to manual review,Automated test,Specified
+AC-04,US-03,Matching amounts within 0.01 are not flagged solely for a small rounding difference,Automated test,Specified
+AC-05,US-04,Duplicate flag has priority over other validation rules,Automated test,Specified
+AC-06,US-04,Duplicate records are never auto-cleared,Automated test,Specified
+AC-07,US-05,Blank payment references are routed to manual review,Automated test,Specified
+AC-08,US-05,Manual-review output includes an explicit exception reason,Automated test,Specified
+AC-09,US-06,Age greater than seven days triggers aged-item review,Automated test,Specified
+AC-10,US-06,Exactly seven-day-old matching records can be auto-cleared,Automated test,Specified
+AC-11,US-01,Each routed record has exactly one primary exception category,Automated test,Specified
+AC-12,US-01,Category totals equal total records processed,Automated test,Specified
+AC-13,US-07,Reviewer can distinguish auto-cleared from manual-review items,Automated test,Specified
+AC-14,US-07,Exception counts are published in a summary report,Automated test,Specified
+AC-15,US-08,Baseline effort is calculated using four minutes per record,Automated test,Specified
+AC-16,US-08,Future effort is calculated as five minutes per exception plus 0.1 per auto-clear,Automated test,Specified
+AC-17,US-09,All functional rules map to acceptance criteria,Automated test,Specified
+AC-18,US-09,RTM lists test coverage for implemented rule groups,Automated test,Specified
+AC-19,US-10,Replay input produces identical routing outcomes,Automated test,Specified
+AC-20,US-10,Test report highlights failed acceptance tests,Automated test,Specified
+AC-21,US-11,Dependency and approval decisions are recorded in project documentation,Document inspection,Specified
+AC-22,US-11,Change assumptions are documented as simulated rather than deployed,Document inspection,Specified
+AC-23,US-12,CSV exports include record ID and routing result,Document inspection,Specified
+AC-24,US-12,Reports present both automated and manual-review counts,Document inspection,Specified
+AC-25,US-12,All 500 input records are represented in the export,Document inspection,Specified

@@ -1,0 +1,21 @@
+test_id,story_id,acceptance_id,test_scenario,expected_rule_result,expected_routing,test_type,result,notes
+TC-01,US-02,AC-01,"Matched amount, reference present",MATCH,Auto Clear,Automated functional,PASS (simulated),Synthetic sample only
+TC-02,US-02,AC-02,Clean matching case,MATCH,Auto Clear,Automated functional,PASS (simulated),Synthetic sample only
+TC-03,US-03,AC-03,Difference 10.00,AMOUNT_MISMATCH,Manual Review,Automated functional,PASS (simulated),Synthetic sample only
+TC-04,US-03,AC-04,Difference 0.01,MATCH,Auto Clear,Automated functional,PASS (simulated),Synthetic sample only
+TC-05,US-04,AC-05,Duplicate and missing reference,DUPLICATE,Manual Review,Automated functional,PASS (simulated),Synthetic sample only
+TC-06,US-04,AC-06,Duplicate only,DUPLICATE,Manual Review,Automated functional,PASS (simulated),Synthetic sample only
+TC-07,US-05,AC-07,Blank payment reference,MISSING_REFERENCE,Manual Review,Automated functional,PASS (simulated),Synthetic sample only
+TC-08,US-05,AC-08,Missing reference reason exposed,MISSING_REFERENCE,Manual Review,Automated functional,PASS (simulated),Synthetic sample only
+TC-09,US-06,AC-09,Age 8 days,AGED_ITEM,Manual Review,Automated functional,PASS (simulated),Synthetic sample only
+TC-10,US-06,AC-10,Age exactly 7 days,MATCH,Auto Clear,Automated functional,PASS (simulated),Synthetic sample only
+TC-11,US-01,AC-11,Matched sample row,MATCH,Auto Clear,Automated functional,PASS (simulated),Synthetic sample only
+TC-12,US-01,AC-12,Aggregate count reconciliation,MATCH,Auto Clear,Automated functional,PASS (simulated),Synthetic sample only
+TC-13,US-07,AC-13,Exception routing appears,AMOUNT_MISMATCH,Manual Review,Automated functional,PASS (simulated),Synthetic sample only
+TC-14,US-07,AC-14,Summary count checks,MATCH,Auto Clear,Evidence review,REVIEWED (illustrative),Synthetic sample only
+TC-15,US-08,AC-15,Baseline effort check,MATCH,Auto Clear,Evidence review,REVIEWED (illustrative),Synthetic sample only
+TC-16,US-08,AC-16,To-be effort check,MATCH,Auto Clear,Evidence review,REVIEWED (illustrative),Synthetic sample only
+TC-17,US-09,AC-17,RTM requirements coverage,MATCH,Auto Clear,Evidence review,REVIEWED (illustrative),Synthetic sample only
+TC-18,US-09,AC-18,RTM test coverage,MATCH,Auto Clear,Evidence review,REVIEWED (illustrative),Synthetic sample only
+TC-19,US-10,AC-19,Repeatability of engine,MATCH,Auto Clear,Evidence review,REVIEWED (illustrative),Synthetic sample only
+TC-20,US-10,AC-20,Automated verification suite,MATCH,Auto Clear,Evidence review,REVIEWED (illustrative),Synthetic sample only

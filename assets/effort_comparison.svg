@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310">
+<rect width="100%" height="100%" fill="#F8FAFC"/>
+<text x="40" y="48" font-family="Arial" font-size="26" font-weight="bold" fill="#0F172A">Reconciliation effort | 500 simulated cases</text>
+<text x="40" y="100" font-family="Arial" font-size="19" fill="#334155">AS-IS manual effort</text>
+<rect x="340" y="74" width="540" height="38" rx="7" fill="#2563EB"/>
+<text x="890" y="100" font-family="Arial" font-size="19" font-weight="bold" fill="#0F172A">2,000 min</text>
+<text x="40" y="195" font-family="Arial" font-size="19" fill="#334155">TO-BE modeled effort</text>
+<rect x="340" y="169" width="212" height="38" rx="7" fill="#0D9488"/>
+<text x="562" y="195" font-family="Arial" font-size="19" font-weight="bold" fill="#0F172A">785 min</text>
+<text x="40" y="290" font-family="Arial" font-size="16" fill="#64748B">Modeled assumptions, not observed operational time | Estimated reduction: 60.75%</text></svg>

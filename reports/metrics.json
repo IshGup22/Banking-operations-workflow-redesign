@@ -1,0 +1,18 @@
+{
+  "records": 500,
+  "matched_auto_cleared": 350,
+  "manual_review": 150,
+  "baseline_manual_minutes": 2000,
+  "future_estimated_minutes": 785.0,
+  "estimated_minutes_saved": 1215.0,
+  "estimated_time_reduction_pct": 60.75,
+  "auto_clear_rate_pct": 70.0,
+  "scenario_counts": {
+    "AGED_ITEM": 25,
+    "AMOUNT_MISMATCH": 60,
+    "DUPLICATE": 35,
+    "MATCH": 350,
+    "MISSING_REFERENCE": 30
+  },
+  "assumption_note": "Synthetic sample; duration figures are scenario estimates, not production outcomes"
+}
